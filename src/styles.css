@@ -1,0 +1,28 @@
+/* styles.css */
+
+/* Hintergrund dunkelgrau */
+body {
+    background-color: #333333; /* Dunkelgrau */
+    height: 100vh; /* Höhe des Viewports */
+    display: flex;
+    justify-content: center; /* Zentriert horizontal */
+    align-items: center; /* Zentriert vertikal */
+    margin: 0; /* Entfernt Standardabstände */
+}
+
+/* Spotify-Button */
+.spotify-button {
+    background-color: #1DB954; /* Spotify-Grün */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Hover-Effekt für den Button */
+.spotify-button:hover {
+    background-color: #1aa34a; /* Dunkleres Grün beim Hover */
+}
